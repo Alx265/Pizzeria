@@ -1,0 +1,84 @@
+.container {
+	max-width: $website-width;
+	padding: 0 1.5rem;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+%bottom-line-shared {
+	height: 0.5rem;
+	border-radius: 10px;
+	margin: 5px auto 5px auto;
+  background: $main-color;
+  display: block;
+}
+
+.white-color {
+  color: $light-color;
+}
+
+.bottom-line {
+	&-showcase {
+		@extend %bottom-line-shared;
+		width: 50%;
+	}
+	&-about-us {
+		@extend %bottom-line-shared;
+		width: 20%;
+		height: 0.4rem;
+	}
+	&-menu {
+		@extend %bottom-line-shared;
+		width: 40%;
+		height: 0.2rem;
+	}
+  &-contact {
+    @extend %bottom-line-shared;
+    width: 7%;
+    height: 0.4rem;
+  }
+  &-access {
+    @extend %bottom-line-shared;
+    width: 4%;
+    height: 0.4rem;
+  }
+}
+
+.toUpper {
+	text-transform: uppercase;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+}
