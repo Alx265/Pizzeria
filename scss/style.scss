@@ -256,23 +256,25 @@ img {
 	h6 {
 		font-size: 2rem;
 		color: $main-color;
+		text-align: center;
+		margin: 1rem 0 1rem 0;
 	}
-	.items-footer {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		color: $light-color;
-	.item {
+	.footer-content {
 		display: flex;
-		flex-direction: column;
-		font-size: 1.5rem;
-		justify-content:space-between;
-			a {
-					color: $light-color;
-					margin-left: 1rem;
-			}
+		flex-wrap: wrap;
+		justify-content: space-around;
+		.footer-col {
+			text-align: left;
 			i {
-				padding: 1rem 0;
 				color: $main-color;
+				font-size: 1.3rem;
+				margin-bottom: 1.3rem;
+			}
+			a {
+				text-align: center;
+				color: $light-color;
+				font-size: 1.3rem;
+				margin-left: 1rem;
 			}
 			span {
 				margin-left: 1rem;
