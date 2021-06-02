@@ -43,6 +43,11 @@
     width: 7%;
     height: 0.4rem;
   }
+  &-special {
+    @extend %bottom-line-shared;
+    width: 90%;
+    height: 0.2rem;
+  }
 }
 
 .to-upper {
@@ -53,32 +58,16 @@
   font-weight: bold;
 }
 
-.py {
-  &-1 {
-    padding: 1rem 0;
+@for $i from 1 through 10 {
+  .py {
+    &-#{$i} {
+      padding: #{$i}rem 0;
+    }
   }
-  &-2 {
-    padding: 2rem 0;
-  }
-  &-3 {
-    padding: 3rem 0;
-  }
-  &-4 {
-    padding: 4rem 0;
-  }
-}
 
-.my {
-  &-1 {
-    margin: 1rem 0;
-  }
-  &-2 {
-    margin: 2rem 0;
-  }
-  &-3 {
-    margin: 3rem 0;
-  }
-  &-4 {
-    margin: 4rem 0;
+  .my {
+    &-#{$i} {
+      margin: #{$i}rem 0;
+    }
   }
 }

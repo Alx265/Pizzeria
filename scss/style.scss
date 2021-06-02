@@ -56,7 +56,7 @@ img {
 
   li {
     padding: 1rem 1.5rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
   }
 
@@ -135,6 +135,69 @@ img {
     transition: all 0.5s;
     &:hover {
       background-color: lighten($main-color, 15%);
+    }
+  }
+}
+
+// Special chef
+
+#special {
+  background: $special-chef-image no-repeat center right / cover;
+  .container {
+    display: flex;
+    align-items: center;
+    .special-chef {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      margin-right: 10rem;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.7);
+      h3 {
+        color: $main-color;
+        font-size: 1.6rem;
+      }
+
+      h4 {
+        color: $secondary-color;
+        font-size: 2rem;
+      }
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      }
+    }
+    .special-offer {
+      display: flex;
+      background: $light-color;
+      flex: 1;
+      text-align: left;
+      h4 {
+        color: $secondary-color;
+        font-size: 1.3rem;
+      }
+      .special-offer-description {
+        color: $secondary-color;
+        font-size: 1rem;
+      }
+      p {
+        color: $main-color;
+        font-size: 1.7rem;
+      }
+
+      .content {
+        flex: 1;
+      }
+
+      .img-container {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        img {
+          transform: translateX(-50px);
+        }
+      }
     }
   }
 }
@@ -268,6 +331,9 @@ img {
           text-align: center;
           color: $light-color;
           font-size: 1.3rem;
+          i {
+            margin-right: 1rem;
+          }
         }
       }
     }
