@@ -83,7 +83,6 @@ img {
   &-home {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
-
     .header-content {
       padding-top: 20%;
       max-width: 500px;
@@ -333,6 +332,7 @@ img {
           font-size: 1.3rem;
           i {
             margin-right: 1rem;
+            color: $main-color;
           }
         }
       }
