@@ -1,11 +1,12 @@
-@use "config";
-@use "utilities";
-@use "animation";
-@use "scrollButton";
+@import "config";
+@import "utilities";
+@import "animation";
+@import "scrollButton";
 
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -238,7 +239,7 @@ img {
 // Section access
 #access {
   h6 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 3rem;
   }
 
@@ -262,19 +263,12 @@ img {
     justify-content: space-around;
     .footer-col {
       text-align: left;
-      i {
-        color: $main-color;
-        font-size: 1.3rem;
-        margin-bottom: 1.3rem;
-      }
-      a {
-        text-align: center;
-        color: $light-color;
-        font-size: 1.3rem;
-        margin-left: 1rem;
-      }
-      span {
-        margin-left: 1rem;
+      li {
+        a {
+          text-align: center;
+          color: $light-color;
+          font-size: 1.3rem;
+        }
       }
     }
   }

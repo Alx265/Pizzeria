@@ -40,16 +40,16 @@
   }
   &-access {
     @extend %bottom-line-shared;
-    width: 4%;
+    width: 7%;
     height: 0.4rem;
   }
 }
 
-.toUpper {
+.to-upper {
   text-transform: uppercase;
 }
 
-.boldText {
+.bold-text {
   font-weight: bold;
 }
 
