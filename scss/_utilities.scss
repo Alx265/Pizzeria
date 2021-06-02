@@ -1,15 +1,15 @@
 .container {
-	max-width: $website-width;
-	padding: 0 1.5rem;
-	margin: auto;
-	text-align: center;
-	overflow: hidden;
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
 }
 
 %bottom-line-shared {
-	height: 0.5rem;
-	border-radius: 10px;
-	margin: 5px auto 5px auto;
+  height: 0.5rem;
+  border-radius: 10px;
+  margin: 5px auto 5px auto;
   background: $main-color;
   display: block;
 }
@@ -19,20 +19,20 @@
 }
 
 .bottom-line {
-	&-showcase {
-		@extend %bottom-line-shared;
-		width: 50%;
-	}
-	&-about-us {
-		@extend %bottom-line-shared;
-		width: 20%;
-		height: 0.4rem;
-	}
-	&-menu {
-		@extend %bottom-line-shared;
-		width: 40%;
-		height: 0.2rem;
-	}
+  &-showcase {
+    @extend %bottom-line-shared;
+    width: 50%;
+  }
+  &-about-us {
+    @extend %bottom-line-shared;
+    width: 20%;
+    height: 0.4rem;
+  }
+  &-menu {
+    @extend %bottom-line-shared;
+    width: 40%;
+    height: 0.2rem;
+  }
   &-contact {
     @extend %bottom-line-shared;
     width: 7%;
@@ -46,11 +46,11 @@
 }
 
 .toUpper {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .boldText {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .py {
