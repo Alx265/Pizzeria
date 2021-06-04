@@ -55,6 +55,12 @@ img {
   background-color: $secondary-color;
   justify-content: space-around;
   align-items: center;
+
+  .logo-header {
+    border: 0 none;
+    padding: 0;
+  }
+
   ul {
     display: flex;
   }
