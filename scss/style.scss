@@ -44,6 +44,10 @@ img {
   height: 5rem;
 }
 
+.nav-active {
+  transform: translateX(0%);
+}
+
 // Main nav
 #main-nav {
   width: 101%;
@@ -55,6 +59,16 @@ img {
   background-color: $secondary-color;
   justify-content: space-around;
   align-items: center;
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  .burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: $light-color;
+  }
 
   .logo-header {
     border: 0 none;
