@@ -640,7 +640,7 @@ img {
 
 @media (max-width: 500px) {
   #header-home .header-content {
-    padding-top: 110%;
+    padding-top: 100%;
   }
   #header-home .header-content .bottom-line-showcase {
     width: 40%;
