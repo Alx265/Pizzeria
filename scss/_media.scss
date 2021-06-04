@@ -10,7 +10,6 @@
 }
 
 // Tablets
-
 @media (max-width: 800px) {
   #header {
     &-home {
@@ -161,6 +160,11 @@
     }
     h6 {
       font-size: 1.6rem;
+    }
+  }
+  #scrollBtn {
+    &:hover {
+      background-color: $main-color;
     }
   }
 }

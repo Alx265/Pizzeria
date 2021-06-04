@@ -740,5 +740,8 @@ img {
   #footer h6 {
     font-size: 1.6rem;
   }
+  #scrollBtn:hover {
+    background-color: #f26801;
+  }
 }
 /*# sourceMappingURL=style.css.map */
