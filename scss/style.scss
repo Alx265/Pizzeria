@@ -44,10 +44,6 @@ img {
   height: 5rem;
 }
 
-.nav-active {
-  transform: translateX(0%);
-}
-
 // Main nav
 #main-nav {
   width: 101%;
@@ -68,6 +64,7 @@ img {
     height: 3px;
     margin: 5px;
     background-color: $light-color;
+    transition: all 0.3s ease;
   }
 
   .logo-header {
