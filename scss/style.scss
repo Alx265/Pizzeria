@@ -40,29 +40,34 @@ img {
 
 // Logo
 #logo {
-  width: 150px;
-  height: 150px;
+  width: 5rem;
+  height: 5rem;
 }
 
 // Main nav
 #main-nav {
+  width: 101%;
   display: flex;
-  justify-content: space-between;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  background-color: $secondary-color;
+  justify-content: space-around;
   align-items: center;
-
   ul {
     display: flex;
   }
 
   li {
     padding: 1rem 1.5rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: $light-color;
     text-transform: uppercase;
     border-bottom: 4px transparent solid;
     padding-bottom: 0.5rem;
@@ -84,9 +89,7 @@ img {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
     .header-content {
-      padding-top: 20%;
-      max-width: 500px;
-
+      padding-top: 30%;
       h1 {
         text-align: center;
         font-size: 6rem;
@@ -95,7 +98,7 @@ img {
       }
 
       p {
-        color: $pink-color;
+        color: $light-color;
         text-transform: uppercase;
         font-size: 3rem;
         text-align: center;
