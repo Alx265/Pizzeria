@@ -251,15 +251,13 @@ img {
 #contact {
   .btn-submit {
     display: inline-block;
-    color: $light-color;
-    background-color: $main-color;
-    border-style: none;
+    padding: 1rem;
+    font-size: 1.5rem;
     border-radius: 10px;
-    text-align: center;
-    height: 50px;
-    font-size: 1rem;
-    width: 200px;
-    font-family: $font-stack;
+    background-color: $main-color;
+    text-decoration: none;
+    color: $light-color;
+    border: none;
     cursor: pointer;
     transition: all 0.5s;
     &:hover {
