@@ -55,19 +55,19 @@
 
 // Phones
 @media (max-width: 600px) {
-  .nav-active {
-    transform: translateX(0%);
-  }
-
   #header-home {
     #main-nav {
       justify-content: space-between;
+      #logo {
+        width: 60px;
+        height: 60px;
+      }
       .nav-links {
         position: absolute;
         right: 0;
         width: 50%;
         height: 100vh;
-        top: 9vh;
+        top: 7vh;
         background-color: $secondary-color;
         display: flex;
         flex-direction: column;
@@ -198,8 +198,8 @@
       background-color: $main-color;
     }
   }
+}
 
-  .nav-active {
-    transform: translateX(0%) !important;
-  }
+.nav-active {
+  transform: translateX(0%) !important;
 }
