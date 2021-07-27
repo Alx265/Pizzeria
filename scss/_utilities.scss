@@ -21,31 +21,31 @@
 .bottom-line {
   &-showcase {
     @extend %bottom-line-shared;
-    width: 20%;
+    width: 15%;
   }
   &-about-us {
     @extend %bottom-line-shared;
-    width: 20%;
+    width: 15%;
     height: 0.4rem;
   }
   &-menu {
     @extend %bottom-line-shared;
-    width: 40%;
+    width: 35%;
     height: 0.2rem;
   }
   &-contact {
     @extend %bottom-line-shared;
-    width: 7%;
+    width: 6%;
     height: 0.4rem;
   }
   &-access {
     @extend %bottom-line-shared;
-    width: 7%;
+    width: 6%;
     height: 0.4rem;
   }
   &-special {
     @extend %bottom-line-shared;
-    width: 90%;
+    width: 85%;
     height: 0.2rem;
   }
 }

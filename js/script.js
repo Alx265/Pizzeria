@@ -18,11 +18,16 @@ function topFunction() {
 
 window.addEventListener('scroll', function() {
   if (window.scrollY > 150) {
-    document.querySelector('#main-nav').style.opacity = 0.8;
+    
+    this.document.querySelector('#logo').style.height = '4rem';
+    this.document.querySelector('#main-nav').style.height = '4rem';
+    
   } else {
-    document.querySelector('#main-nav').style.opacity = 1;
+    this.document.querySelector('#logo').style.height = '5rem';
+    this.document.querySelector('#main-nav').style.height = '5rem';
   }
 });
+
 
 const navSlide = () => {
   const burger = document.querySelector('.burger');
