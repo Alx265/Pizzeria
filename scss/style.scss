@@ -148,7 +148,7 @@ img {
   .btn-about-us {
     display: inline-block;
     padding: 0.6rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 10px;
     background-color: $main-color;
     text-decoration: none;
@@ -267,12 +267,13 @@ img {
   .btn-submit {
     display: inline-block;
     padding: 0.6rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 10px;
     background-color: $main-color;
     text-decoration: none;
     color: $light-color;
     border: none;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.5s;
     &:hover {
