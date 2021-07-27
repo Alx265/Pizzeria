@@ -656,8 +656,12 @@ img {
 }
 
 #footer .footer-content .footer-col li a i {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   margin-top: 2rem;
+  color: #f26801;
+}
+
+#footer .footer-content .footer-col li a:hover {
   color: #f26801;
 }
 
